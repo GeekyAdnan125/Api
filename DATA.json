@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "name": "Taj Mahal",
+    "type": "monument",
+    "city": "Agra",
+    "rating": 4.8,
+    "local_languages": ["Hindi", "English"],
+    "nearestRailwayStation": {
+      "name": "Agra Cantt",
+      "distanceFromPlace": "4 km"
+    },
+    "nearestAirport": {
+      "name": "Agra Airport",
+      "distanceFromPlace": "12 km"
+    },
+    "nearestHotel": {
+      "name": "The Oberoi Amarvilas",
+      "distanceFromPlace": "1 km",
+      "hotelRating": 4.9
+    }
+  },
+  {
+    "id": 2,
+    "name": "Gateway of India",
+    "type": "monument",
+    "city": "Mumbai",
+    "rating": 4.7,
+    "local_languages": ["Marathi", "Hindi", "English"],
+    "nearestRailwayStation": {
+      "name": "Chhatrapati Shivaji Maharaj Terminus",
+      "distanceFromPlace": "3 km"
+    },
+    "nearestAirport": {
+      "name": "Chhatrapati Shivaji Maharaj International Airport",
+      "distanceFromPlace": "25 km"
+    },
+    "nearestHotel": {
+      "name": "The Taj Mahal Palace",
+      "distanceFromPlace": "0.2 km",
+      "hotelRating": 4.8
+    }
+  },
+  {
+    "id": 3,
+    "name": "Qutub Minar",
+    "type": "monument",
+    "city": "Delhi",
+    "rating": 4.5,
+    "local_languages": ["Hindi", "English"],
+    "nearestRailwayStation": {
+      "name": "Hazrat Nizamuddin",
+      "distanceFromPlace": "15 km"
+    },
+    "nearestAirport": {
+      "name": "Indira Gandhi International Airport",
+      "distanceFromPlace": "12 km"
+    },
+    "nearestHotel": {
+      "name": "The Claridges",
+      "distanceFromPlace": "10 km",
+      "hotelRating": 4.3
+    }
+  },
+  {
+    "id": 4,
+    "name": "Hawa Mahal",
+    "type": "monument",
+    "city": "Jaipur",
+    "rating": 4.6,
+    "local_languages": ["Hindi", "English"],
+    "nearestRailwayStation": {
+      "name": "Jaipur Junction",
+      "distanceFromPlace": "3 km"
+    },
+    "nearestAirport": {
+      "name": "Jaipur International Airport",
+      "distanceFromPlace": "12 km"
+    },
+    "nearestHotel": {
+      "name": "The Oberoi Rajvilas",
+      "distanceFromPlace": "5 km",
+      "hotelRating": 4.7
+    }
+  },
+  {
+    "id": 5,
+    "name": "Charminar",
+    "type": "monument",
+    "city": "Hyderabad",
+    "rating": 4.4,
+    "local_languages": ["Telugu", "Hindi", "English"],
+    "nearestRailwayStation": {
+      "name": "Hyderabad Deccan",
+      "distanceFromPlace": "4 km"
+    },
+    "nearestAirport": {
+      "name": "Rajiv Gandhi International Airport",
+      "distanceFromPlace": "25 km"
+    },
+    "nearestHotel": {
+      "name": "Taj Falaknuma Palace",
+      "distanceFromPlace": "6 km",
+      "hotelRating": 4.9
+    }
+  },
+  {
+    "id": 6,
+    "name": "Golden Temple",
+    "type": "temple",
+    "city": "Amritsar",
+    "rating": 4.9,
+    "local_languages": ["Punjabi", "Hindi", "English"],
+    "nearestRailwayStation": {
+      "name": "Amritsar Junction",
+      "distanceFromPlace": "2 km"
+    },
+    "nearestAirport": {
+      "name": "Sri Guru Ram Dass Jee International Airport",
+      "distanceFromPlace": "12 km"
+    },
+    "nearestHotel": {
+      "name": "The Ritz Plaza",
+      "distanceFromPlace": "1 km",
+      "hotelRating": 4.5
+    }
+  },
+  {
+    "id": 7,
+    "name": "Victoria Memorial",
+    "type": "monument",
+    "city": "Kolkata",
+    "rating": 4.7,
+    "local_languages": ["Bengali", "Hindi", "English"],
+    "nearestRailwayStation": {
+      "name": "Howrah Junction",
+      "distanceFromPlace": "6 km"
+    },
+    "nearestAirport": {
+      "name": "Netaji Subhas Chandra Bose International Airport",
+      "distanceFromPlace": "17 km"
+    },
+    "nearestHotel": {
+      "name": "The Oberoi Grand",
+      "distanceFromPlace": "2 km",
+      "hotelRating": 4.6
+    }
+  },
+  {
+    "id": 8,
+    "name": "Mysore Palace",
+    "type": "palace",
+    "city": "Mysore",
+    "rating": 4.8,
+    "local_languages": ["Kannada", "Hindi", "English"],
+    "nearestRailwayStation": {
+      "name": "Mysore Junction",
+      "distanceFromPlace": "2 km"
+    },
+    "nearestAirport": {
+      "name": "Mangalore International Airport",
+      "distanceFromPlace": "180 km"
+    },
+    "nearestHotel": {
+      "name": "The Windflower Resort & Spa",
+      "distanceFromPlace": "5 km",
+      "hotelRating": 4.4
+    }
+  },
+  {
+    "id": 9,
+    "name": "Elephanta Caves",
+    "type": "caves",
+    "city": "Mumbai",
+    "rating": 4.5,
+    "local_languages": ["Marathi", "Hindi", "English"],
+    "nearestRailwayStation": {
+      "name": "Chhatrapati Shivaji Maharaj Terminus",
+      "distanceFromPlace": "15 km"
+    },
+    "nearestAirport": {
+      "name": "Chhatrapati Shivaji Maharaj International Airport",
+      "distanceFromPlace": "25 km"
+    },
+    "nearestHotel": {
+      "name": "The Taj Mahal Palace",
+      "distanceFromPlace": "12 km",
+      "hotelRating": 4.8
+    }
+  },
+  {
+    "id": 10,
+    "name": "Jag Mandir",
+    "type": "palace",
+    "city": "Udaipur",
+    "rating": 4.7,
+    "local_languages": ["Hindi", "English"],
+    "nearestRailwayStation": {
+      "name": "Udaipur City",
+      "distanceFromPlace": "5 km"
+    },
+    "nearestAirport": {
+      "name": "Maharana Pratap Airport",
+      "distanceFromPlace": "22 km"
+    },
+    "nearestHotel": {
+      "name": "The Leela Palace",
+      "distanceFromPlace": "6 km",
+      "hotelRating": 4.9
+    }
+  },
+  {
+    "id": 11,
+    "name": "Kashi Vishwanath Temple",
+    "type": "temple",
+    "city": "Varanasi",
+    "rating": 4.9,
+    "local_languages": ["Hindi", "Bhojpuri"],
+    "nearestRailwayStation": {
+      "name": "Varanasi Junction",
+      "distanceFromPlace": "1 km"
+    },
+    "nearestAirport": {
+      "name": "Lal Bahadur Shastri Airport",
+      "distanceFromPlace": "25 km"
+    },
+    "nearestHotel": {
+      "name": "Brijrama Palace",
+      "distanceFromPlace": "1 km",
+      "hotelRating": 4.7
+    }
+  },
+  {
+    "id": 12,
+    "name": "Konark Sun Temple",
+    "type": "temple",
+    "city": "Konark",
+    "rating": 4.8,
+    "local_languages": ["Odia", "Hindi", "English"],
+    "nearestRailwayStation": {
+      "name": "Puri",
+      "distanceFromPlace": "35 km"
+    },
+    "nearestAirport": {
+      "name": "Bhubaneswar Airport",
+      "distanceFromPlace": "60 km"
+    },
+    "nearestHotel": {
+      "name": "Suryansh Hotel",
+      "distanceFromPlace": "25 km",
+      "hotelRating": 4.4
+    }
+  },
+  {
+    "id": 13,
+    "name": "Rishikesh",
+    "type": "city",
+    "city": "Rishikesh",
+    "rating": 4.7,
+    "local_languages": ["Hindi", "English"],
+    "nearestRailwayStation": {
+      "name": "Rishikesh",
+      "distanceFromPlace": "5 km"
+    },
+    "nearestAirport": {
+      "name": "Dehradun Airport",
+      "distanceFromPlace": "20 km"
+    },
+    "nearestHotel": {
+      "name": "Aloha On The Ganges",
+      "distanceFromPlace": "2 km",
+      "hotelRating": 4.5
+    }
+  },
+  {
+    "id": 14,
+    "name": "Mahabalipuram",
+    "type": "city",
+    "city": "Mahabalipuram",
+    "rating": 4.6,
+    "local_languages": ["Tamil", "English"],
+    "nearestRailwayStation": {
+      "name": "Chengalpattu",
+      "distanceFromPlace": "30 km"
+    },
+    "nearestAirport": {
+      "name": "Chennai International Airport",
+      "distanceFromPlace": "60 km"
+    },
+    "nearestHotel": {
+      "name": "Radisson Blu Resort Temple Bay",
+      "distanceFromPlace": "5 km",
+      "hotelRating": 4.7
+    }
+  },
+  {
+    "id": 15,
+    "name": "Chandigarh",
+    "type": "city",
+    "city": "Chandigarh",
+    "rating": 4.8,
+    "local_languages": ["Punjabi", "Hindi", "English"],
+    "nearestRailwayStation": {
+      "name": "Chandigarh Junction",
+      "distanceFromPlace": "5 km"
+    },
+    "nearestAirport": {
+      "name": "Chandigarh Airport",
+      "distanceFromPlace": "12 km"
+    },
+    "nearestHotel": {
+      "name": "The Lalit Chandigarh",
+      "distanceFromPlace": "7 km",
+      "hotelRating": 4.6
+    }
+  },
+  {
+    "id": 16,
+    "name": "Pondicherry",
+    "type": "city",
+    "city": "Pondicherry",
+    "rating": 4.7,
+    "local_languages": ["Tamil", "French", "English"],
+    "nearestRailwayStation": {
+      "name": "Pondicherry",
+      "distanceFromPlace": "2 km"
+    },
+    "nearestAirport": {
+      "name": "Puducherry Airport",
+      "distanceFromPlace": "5 km"
+    },
+    "nearestHotel": {
+      "name": "Le Pondy",
+      "distanceFromPlace": "3 km",
+      "hotelRating": 4.5
+    }
+  },
+  {
+    "id": 17,
+    "name": "Jaisalmer",
+    "type": "city",
+    "city": "Jaisalmer",
+    "rating": 4.6,
+    "local_languages": ["Rajasthani", "Hindi", "English"],
+    "nearestRailwayStation": {
+      "name": "Jaisalmer",
+      "distanceFromPlace": "5 km"
+    },
+    "nearestAirport": {
+      "name": "Jaisalmer Airport",
+      "distanceFromPlace": "10 km"
+    },
+    "nearestHotel": {
+      "name": "Suryagarh",
+      "distanceFromPlace": "8 km",
+      "hotelRating": 4.8
+    }
+  },
+  {
+    "id": 18,
+    "name": "Rajasthan",
+    "type": "city",
+    "city": "Jaipur",
+    "rating": 4.8,
+    "local_languages": ["Rajasthani", "Hindi", "English"],
+    "nearestRailwayStation": {
+      "name": "Jaipur Junction",
+      "distanceFromPlace": "4 km"
+    },
+    "nearestAirport": {
+      "name": "Jaipur International Airport",
+      "distanceFromPlace": "12 km"
+    },
+    "nearestHotel": {
+      "name": "The Oberoi Rajvilas",
+      "distanceFromPlace": "5 km",
+      "hotelRating": 4.7
+    }
+  },
+  {
+    "id": 19,
+    "name": "Coorg",
+    "type": "city",
+    "city": "Coorg",
+    "rating": 4.7,
+    "local_languages": ["Kodava", "Kannada", "English"],
+    "nearestRailwayStation": {
+      "name": "Mangalore Junction",
+      "distanceFromPlace": "100 km"
+    },
+    "nearestAirport": {
+      "name": "Mangalore International Airport",
+      "distanceFromPlace": "120 km"
+    },
+    "nearestHotel": {
+      "name": "The Tamara Coorg",
+      "distanceFromPlace": "25 km",
+      "hotelRating": 4.6
+    }
+  },
+  {
+    "id": 20,
+    "name": "Shimla",
+    "type": "city",
+    "city": "Shimla",
+    "rating": 4.5,
+    "local_languages": ["Hindi", "English", "Pahari"],
+    "nearestRailwayStation": {
+      "name": "Shimla",
+      "distanceFromPlace": "1 km"
+    },
+    "nearestAirport": {
+      "name": "Shimla Airport",
+      "distanceFromPlace": "20 km"
+    },
+    "nearestHotel": {
+      "name": "The Oberoi Cecil",
+      "distanceFromPlace": "2 km",
+      "hotelRating": 4.8
+    }
+  }
+]
