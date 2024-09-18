@@ -1,422 +1,1059 @@
 [
   {
     "id": 1,
-    "name": "Taj Mahal",
-    "type": "monument",
-    "city": "Agra",
-    "rating": 4.8,
-    "local_languages": ["Hindi", "English"],
-    "nearestRailwayStation": {
-      "name": "Agra Cantt",
-      "distanceFromPlace": "4 km"
-    },
-    "nearestAirport": {
-      "name": "Agra Airport",
-      "distanceFromPlace": "12 km"
-    },
-    "nearestHotel": {
-      "name": "The Oberoi Amarvilas",
-      "distanceFromPlace": "1 km",
-      "hotelRating": 4.9
-    }
-  },
-  {
-    "id": 2,
-    "name": "Gateway of India",
-    "type": "monument",
-    "city": "Mumbai",
-    "rating": 4.7,
-    "local_languages": ["Marathi", "Hindi", "English"],
-    "nearestRailwayStation": {
-      "name": "Chhatrapati Shivaji Maharaj Terminus",
-      "distanceFromPlace": "3 km"
-    },
-    "nearestAirport": {
-      "name": "Chhatrapati Shivaji Maharaj International Airport",
-      "distanceFromPlace": "25 km"
-    },
-    "nearestHotel": {
-      "name": "The Taj Mahal Palace",
-      "distanceFromPlace": "0.2 km",
-      "hotelRating": 4.8
-    }
-  },
-  {
-    "id": 3,
-    "name": "Qutub Minar",
-    "type": "monument",
+    "name": "Delhi",
+    "type": "city",
     "city": "Delhi",
     "rating": 4.5,
     "local_languages": ["Hindi", "English"],
-    "nearestRailwayStation": {
-      "name": "Hazrat Nizamuddin",
-      "distanceFromPlace": "15 km"
+    "famousVisitingPlace": {
+      "name": "Red Fort",
+      "description": "A historic fortification and UNESCO World Heritage site.",
+      "nearestRailwayStation": {
+        "name": "Old Delhi Railway Station",
+        "distanceFromPlace": "1.5 km"
+      },
+      "nearestAirport": {
+        "name": "Indira Gandhi International Airport",
+        "distanceFromPlace": "20 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "Hotel The Royal",
+          "description": "A luxury hotel offering modern amenities and comfort.",
+          "distanceFromPlace": "0.8 km"
+        },
+        {
+          "name": "Hotel Delhi Darbar",
+          "description": "A budget-friendly option with comfortable rooms.",
+          "distanceFromPlace": "1.2 km"
+        }
+      ]
     },
-    "nearestAirport": {
-      "name": "Indira Gandhi International Airport",
-      "distanceFromPlace": "12 km"
+    "souvenirs": [
+      {
+        "name": "Delhi Art Prints",
+        "description": "Beautiful prints of Delhi landmarks.",
+        "price": "$20"
+      },
+      {
+        "name": "Spices from Old Delhi",
+        "description": "A variety of traditional spices.",
+        "price": "$15"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mumbai",
+    "type": "city",
+    "city": "Mumbai",
+    "rating": 4.7,
+    "local_languages": ["Marathi", "Hindi", "English"],
+    "famousVisitingPlace": {
+      "name": "Gateway of India",
+      "description": "A historical monument overlooking the Arabian Sea.",
+      "nearestRailwayStation": {
+        "name": "Churchgate Railway Station",
+        "distanceFromPlace": "2 km"
+      },
+      "nearestAirport": {
+        "name": "Chhatrapati Shivaji Maharaj International Airport",
+        "distanceFromPlace": "25 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "The Taj Mahal Palace",
+          "description": "Luxury hotel with iconic views of the Gateway.",
+          "distanceFromPlace": "0.5 km"
+        },
+        {
+          "name": "Hotel Marine Plaza",
+          "description": "Comfortable hotel with sea views.",
+          "distanceFromPlace": "1 km"
+        }
+      ]
     },
-    "nearestHotel": {
-      "name": "The Claridges",
-      "distanceFromPlace": "10 km",
-      "hotelRating": 4.3
-    }
+    "souvenirs": [
+      {
+        "name": "Mumbai Film Memorabilia",
+        "description": "Collectibles from Bollywood movies.",
+        "price": "$30"
+      },
+      {
+        "name": "Mumbai Street Food Recipes",
+        "description": "Cookbook featuring famous Mumbai street food recipes.",
+        "price": "$25"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Bangalore",
+    "type": "city",
+    "city": "Bangalore",
+    "rating": 4.4,
+    "local_languages": ["Kannada", "English"],
+    "famousVisitingPlace": {
+      "name": "Lalbagh Botanical Garden",
+      "description": "A famous botanical garden with a variety of plants.",
+      "nearestRailwayStation": {
+        "name": "Bangalore City Railway Station",
+        "distanceFromPlace": "4 km"
+      },
+      "nearestAirport": {
+        "name": "Kempegowda International Airport",
+        "distanceFromPlace": "35 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "The Leela Palace",
+          "description": "Luxury hotel with elegant rooms and fine dining.",
+          "distanceFromPlace": "3 km"
+        },
+        {
+          "name": "Hotel Royal Orchid",
+          "description": "Comfortable hotel with good amenities.",
+          "distanceFromPlace": "4 km"
+        }
+      ]
+    },
+    "souvenirs": [
+      {
+        "name": "Bangalore Coffee Beans",
+        "description": "Premium coffee beans from Bangalore.",
+        "price": "$18"
+      },
+      {
+        "name": "Karnataka Silk Sarees",
+        "description": "Traditional silk sarees from Karnataka.",
+        "price": "$60"
+      }
+    ]
   },
   {
     "id": 4,
-    "name": "Hawa Mahal",
-    "type": "monument",
-    "city": "Jaipur",
+    "name": "Hyderabad",
+    "type": "city",
+    "city": "Hyderabad",
     "rating": 4.6,
-    "local_languages": ["Hindi", "English"],
-    "nearestRailwayStation": {
-      "name": "Jaipur Junction",
-      "distanceFromPlace": "3 km"
+    "local_languages": ["Telugu", "Hindi", "English"],
+    "famousVisitingPlace": {
+      "name": "Charminar",
+      "description": "A historic monument and mosque.",
+      "nearestRailwayStation": {
+        "name": "Hyderabad Deccan Railway Station",
+        "distanceFromPlace": "2 km"
+      },
+      "nearestAirport": {
+        "name": "Rajiv Gandhi International Airport",
+        "distanceFromPlace": "25 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "Taj Falaknuma Palace",
+          "description": "Luxury palace hotel with royal amenities.",
+          "distanceFromPlace": "3 km"
+        },
+        {
+          "name": "Hotel Grand Kakatiya",
+          "description": "Comfortable hotel with modern facilities.",
+          "distanceFromPlace": "2 km"
+        }
+      ]
     },
-    "nearestAirport": {
-      "name": "Jaipur International Airport",
-      "distanceFromPlace": "12 km"
-    },
-    "nearestHotel": {
-      "name": "The Oberoi Rajvilas",
-      "distanceFromPlace": "5 km",
-      "hotelRating": 4.7
-    }
+    "souvenirs": [
+      {
+        "name": "Hyderabadi Pearls",
+        "description": "Beautiful pearls from Hyderabad.",
+        "price": "$40"
+      },
+      {
+        "name": "Hyderabadi Biryani Masala",
+        "description": "Spice mix for the famous Hyderabadi Biryani.",
+        "price": "$20"
+      }
+    ]
   },
   {
     "id": 5,
-    "name": "Charminar",
-    "type": "monument",
-    "city": "Hyderabad",
-    "rating": 4.4,
-    "local_languages": ["Telugu", "Hindi", "English"],
-    "nearestRailwayStation": {
-      "name": "Hyderabad Deccan",
-      "distanceFromPlace": "4 km"
+    "name": "Chennai",
+    "type": "city",
+    "city": "Chennai",
+    "rating": 4.3,
+    "local_languages": ["Tamil", "English"],
+    "famousVisitingPlace": {
+      "name": "Marina Beach",
+      "description": "One of the longest urban beaches in the world.",
+      "nearestRailwayStation": {
+        "name": "Chennai Egmore",
+        "distanceFromPlace": "2 km"
+      },
+      "nearestAirport": {
+        "name": "Chennai International Airport",
+        "distanceFromPlace": "20 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "The Leela Palace",
+          "description": "Luxury hotel with beautiful views of the beach.",
+          "distanceFromPlace": "1 km"
+        },
+        {
+          "name": "Hotel Savera",
+          "description": "Comfortable hotel with good amenities.",
+          "distanceFromPlace": "2 km"
+        }
+      ]
     },
-    "nearestAirport": {
-      "name": "Rajiv Gandhi International Airport",
-      "distanceFromPlace": "25 km"
-    },
-    "nearestHotel": {
-      "name": "Taj Falaknuma Palace",
-      "distanceFromPlace": "6 km",
-      "hotelRating": 4.9
-    }
+    "souvenirs": [
+      {
+        "name": "Chennai Silk Sarees",
+        "description": "Traditional silk sarees from Chennai.",
+        "price": "$50"
+      },
+      {
+        "name": "South Indian Spices",
+        "description": "Authentic spices from South India.",
+        "price": "$15"
+      }
+    ]
   },
   {
     "id": 6,
-    "name": "Golden Temple",
-    "type": "temple",
-    "city": "Amritsar",
-    "rating": 4.9,
-    "local_languages": ["Punjabi", "Hindi", "English"],
-    "nearestRailwayStation": {
-      "name": "Amritsar Junction",
-      "distanceFromPlace": "2 km"
+    "name": "Kolkata",
+    "type": "city",
+    "city": "Kolkata",
+    "rating": 4.5,
+    "local_languages": ["Bengali", "English"],
+    "famousVisitingPlace": {
+      "name": "Victoria Memorial",
+      "description": "A large marble building dedicated to Queen Victoria.",
+      "nearestRailwayStation": {
+        "name": "Howrah Railway Station",
+        "distanceFromPlace": "4 km"
+      },
+      "nearestAirport": {
+        "name": "Netaji Subhas Chandra Bose International Airport",
+        "distanceFromPlace": "17 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "The Oberoi Grand",
+          "description": "Luxury hotel with classic architecture.",
+          "distanceFromPlace": "2 km"
+        },
+        {
+          "name": "Hotel Peerless Inn",
+          "description": "Comfortable hotel with good services.",
+          "distanceFromPlace": "3 km"
+        }
+      ]
     },
-    "nearestAirport": {
-      "name": "Sri Guru Ram Dass Jee International Airport",
-      "distanceFromPlace": "12 km"
-    },
-    "nearestHotel": {
-      "name": "The Ritz Plaza",
-      "distanceFromPlace": "1 km",
-      "hotelRating": 4.5
-    }
+    "souvenirs": [
+      {
+        "name": "Kolkata Handicrafts",
+        "description": "Traditional Bengali handicrafts.",
+        "price": "$30"
+      },
+      {
+        "name": "Sweets from Kolkata",
+        "description": "Famous Bengali sweets.",
+        "price": "$20"
+      }
+    ]
   },
   {
     "id": 7,
-    "name": "Victoria Memorial",
-    "type": "monument",
-    "city": "Kolkata",
-    "rating": 4.7,
-    "local_languages": ["Bengali", "Hindi", "English"],
-    "nearestRailwayStation": {
-      "name": "Howrah Junction",
-      "distanceFromPlace": "6 km"
+    "name": "Jaipur",
+    "type": "city",
+    "city": "Jaipur",
+    "rating": 4.6,
+    "local_languages": ["Hindi", "English"],
+    "famousVisitingPlace": {
+      "name": "Amber Fort",
+      "description": "A majestic fort located on a hilltop.",
+      "nearestRailwayStation": {
+        "name": "Jaipur Railway Station",
+        "distanceFromPlace": "11 km"
+      },
+      "nearestAirport": {
+        "name": "Jaipur International Airport",
+        "distanceFromPlace": "15 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "Rambagh Palace",
+          "description": "Luxury hotel with royal heritage.",
+          "distanceFromPlace": "10 km"
+        },
+        {
+          "name": "Hotel Shahpura House",
+          "description": "Comfortable hotel with traditional decor.",
+          "distanceFromPlace": "12 km"
+        }
+      ]
     },
-    "nearestAirport": {
-      "name": "Netaji Subhas Chandra Bose International Airport",
-      "distanceFromPlace": "17 km"
-    },
-    "nearestHotel": {
-      "name": "The Oberoi Grand",
-      "distanceFromPlace": "2 km",
-      "hotelRating": 4.6
-    }
+    "souvenirs": [
+      {
+        "name": "Jaipur Blue Pottery",
+        "description": "Handmade blue pottery from Jaipur.",
+        "price": "$25"
+      },
+      {
+        "name": "Traditional Rajasthani Jewelry",
+        "description": "Beautiful jewelry from Rajasthan.",
+        "price": "$40"
+      }
+    ]
   },
   {
     "id": 8,
-    "name": "Mysore Palace",
-    "type": "palace",
-    "city": "Mysore",
-    "rating": 4.8,
-    "local_languages": ["Kannada", "Hindi", "English"],
-    "nearestRailwayStation": {
-      "name": "Mysore Junction",
-      "distanceFromPlace": "2 km"
+    "name": "Agra",
+    "type": "city",
+    "city": "Agra",
+    "rating": 4.7,
+    "local_languages": ["Hindi", "English"],
+    "famousVisitingPlace": {
+      "name": "Taj Mahal",
+      "description": "An iconic white marble mausoleum and UNESCO World Heritage site.",
+      "nearestRailwayStation": {
+        "name": "Agra Cantt Railway Station",
+        "distanceFromPlace": "3 km"
+      },
+      "nearestAirport": {
+        "name": "Agra Airport",
+        "distanceFromPlace": "13 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "The Oberoi Amarvilas",
+          "description": "Luxury hotel with views of the Taj Mahal.",
+          "distanceFromPlace": "1 km"
+        },
+        {
+          "name": "Hotel Taj Resorts",
+          "description": "Comfortable hotel near the Taj Mahal.",
+          "distanceFromPlace": "1.5 km"
+        }
+      ]
     },
-    "nearestAirport": {
-      "name": "Mangalore International Airport",
-      "distanceFromPlace": "180 km"
-    },
-    "nearestHotel": {
-      "name": "The Windflower Resort & Spa",
-      "distanceFromPlace": "5 km",
-      "hotelRating": 4.4
-    }
+    "souvenirs": [
+      {
+        "name": "Marble Replicas",
+        "description": "Miniature replicas of the Taj Mahal made from marble.",
+        "price": "$50"
+      },
+      {
+        "name": "Agra Petha",
+        "description": "Famous sweet from Agra.",
+        "price": "$15"
+      }
+    ]
   },
   {
     "id": 9,
-    "name": "Elephanta Caves",
-    "type": "caves",
-    "city": "Mumbai",
-    "rating": 4.5,
-    "local_languages": ["Marathi", "Hindi", "English"],
-    "nearestRailwayStation": {
-      "name": "Chhatrapati Shivaji Maharaj Terminus",
-      "distanceFromPlace": "15 km"
+    "name": "Udaipur",
+    "type": "city",
+    "city": "Udaipur",
+    "rating": 4.8,
+    "local_languages": ["Hindi", "English"],
+    "famousVisitingPlace": {
+      "name": "City Palace",
+      "description": "A complex of palaces situated in the city of Udaipur.",
+      "nearestRailwayStation": {
+        "name": "Udaipur Railway Station",
+        "distanceFromPlace": "4 km"
+      },
+      "nearestAirport": {
+        "name": "Maharana Pratap Airport",
+        "distanceFromPlace": "22 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "The Oberoi Udaivilas",
+          "description": "Luxury hotel with views of Lake Pichola.",
+          "distanceFromPlace": "3 km"
+        },
+        {
+          "name": "Hotel Lake Palace",
+          "description": "Elegant hotel on Lake Pichola.",
+          "distanceFromPlace": "2 km"
+        }
+      ]
     },
-    "nearestAirport": {
-      "name": "Chhatrapati Shivaji Maharaj International Airport",
-      "distanceFromPlace": "25 km"
-    },
-    "nearestHotel": {
-      "name": "The Taj Mahal Palace",
-      "distanceFromPlace": "12 km",
-      "hotelRating": 4.8
-    }
+    "souvenirs": [
+      {
+        "name": "Udaipur Paintings",
+        "description": "Traditional Rajasthani paintings.",
+        "price": "$35"
+      },
+      {
+        "name": "Handcrafted Miniatures",
+        "description": "Miniature handcrafted items from Udaipur.",
+        "price": "$20"
+      }
+    ]
   },
   {
     "id": 10,
-    "name": "Jag Mandir",
-    "type": "palace",
-    "city": "Udaipur",
-    "rating": 4.7,
-    "local_languages": ["Hindi", "English"],
-    "nearestRailwayStation": {
-      "name": "Udaipur City",
-      "distanceFromPlace": "5 km"
+    "name": "Varanasi",
+    "type": "city",
+    "city": "Varanasi",
+    "rating": 4.6,
+    "local_languages": ["Hindi", "Bhojpuri"],
+    "famousVisitingPlace": {
+      "name": "Kashi Vishwanath Temple",
+      "description": "A famous Hindu temple dedicated to Lord Shiva.",
+      "nearestRailwayStation": {
+        "name": "Varanasi Junction",
+        "distanceFromPlace": "1 km"
+      },
+      "nearestAirport": {
+        "name": "Lal Bahadur Shastri Airport",
+        "distanceFromPlace": "25 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "Taj Nadesar Palace",
+          "description": "Luxury heritage hotel with traditional decor.",
+          "distanceFromPlace": "2 km"
+        },
+        {
+          "name": "Hotel Alka",
+          "description": "Comfortable hotel with good amenities.",
+          "distanceFromPlace": "1 km"
+        }
+      ]
     },
-    "nearestAirport": {
-      "name": "Maharana Pratap Airport",
-      "distanceFromPlace": "22 km"
-    },
-    "nearestHotel": {
-      "name": "The Leela Palace",
-      "distanceFromPlace": "6 km",
-      "hotelRating": 4.9
-    }
+    "souvenirs": [
+      {
+        "name": "Banarasi Silk Sarees",
+        "description": "Famous silk sarees from Varanasi.",
+        "price": "$70"
+      },
+      {
+        "name": "Handcrafted Bangles",
+        "description": "Beautiful handcrafted bangles.",
+        "price": "$20"
+      }
+    ]
   },
   {
     "id": 11,
-    "name": "Kashi Vishwanath Temple",
-    "type": "temple",
-    "city": "Varanasi",
-    "rating": 4.9,
-    "local_languages": ["Hindi", "Bhojpuri"],
-    "nearestRailwayStation": {
-      "name": "Varanasi Junction",
-      "distanceFromPlace": "1 km"
-    },
-    "nearestAirport": {
-      "name": "Lal Bahadur Shastri Airport",
-      "distanceFromPlace": "25 km"
-    },
-    "nearestHotel": {
-      "name": "Brijrama Palace",
-      "distanceFromPlace": "1 km",
-      "hotelRating": 4.7
-    }
-  },
-  {
-    "id": 12,
-    "name": "Konark Sun Temple",
-    "type": "temple",
-    "city": "Konark",
-    "rating": 4.8,
-    "local_languages": ["Odia", "Hindi", "English"],
-    "nearestRailwayStation": {
-      "name": "Puri",
-      "distanceFromPlace": "35 km"
-    },
-    "nearestAirport": {
-      "name": "Bhubaneswar Airport",
-      "distanceFromPlace": "60 km"
-    },
-    "nearestHotel": {
-      "name": "Suryansh Hotel",
-      "distanceFromPlace": "25 km",
-      "hotelRating": 4.4
-    }
-  },
-  {
-    "id": 13,
-    "name": "Rishikesh",
-    "type": "city",
-    "city": "Rishikesh",
-    "rating": 4.7,
-    "local_languages": ["Hindi", "English"],
-    "nearestRailwayStation": {
-      "name": "Rishikesh",
-      "distanceFromPlace": "5 km"
-    },
-    "nearestAirport": {
-      "name": "Dehradun Airport",
-      "distanceFromPlace": "20 km"
-    },
-    "nearestHotel": {
-      "name": "Aloha On The Ganges",
-      "distanceFromPlace": "2 km",
-      "hotelRating": 4.5
-    }
-  },
-  {
-    "id": 14,
-    "name": "Mahabalipuram",
-    "type": "city",
-    "city": "Mahabalipuram",
-    "rating": 4.6,
-    "local_languages": ["Tamil", "English"],
-    "nearestRailwayStation": {
-      "name": "Chengalpattu",
-      "distanceFromPlace": "30 km"
-    },
-    "nearestAirport": {
-      "name": "Chennai International Airport",
-      "distanceFromPlace": "60 km"
-    },
-    "nearestHotel": {
-      "name": "Radisson Blu Resort Temple Bay",
-      "distanceFromPlace": "5 km",
-      "hotelRating": 4.7
-    }
-  },
-  {
-    "id": 15,
-    "name": "Chandigarh",
-    "type": "city",
-    "city": "Chandigarh",
-    "rating": 4.8,
-    "local_languages": ["Punjabi", "Hindi", "English"],
-    "nearestRailwayStation": {
-      "name": "Chandigarh Junction",
-      "distanceFromPlace": "5 km"
-    },
-    "nearestAirport": {
-      "name": "Chandigarh Airport",
-      "distanceFromPlace": "12 km"
-    },
-    "nearestHotel": {
-      "name": "The Lalit Chandigarh",
-      "distanceFromPlace": "7 km",
-      "hotelRating": 4.6
-    }
-  },
-  {
-    "id": 16,
-    "name": "Pondicherry",
-    "type": "city",
-    "city": "Pondicherry",
-    "rating": 4.7,
-    "local_languages": ["Tamil", "French", "English"],
-    "nearestRailwayStation": {
-      "name": "Pondicherry",
-      "distanceFromPlace": "2 km"
-    },
-    "nearestAirport": {
-      "name": "Puducherry Airport",
-      "distanceFromPlace": "5 km"
-    },
-    "nearestHotel": {
-      "name": "Le Pondy",
-      "distanceFromPlace": "3 km",
-      "hotelRating": 4.5
-    }
-  },
-  {
-    "id": 17,
-    "name": "Jaisalmer",
-    "type": "city",
-    "city": "Jaisalmer",
-    "rating": 4.6,
-    "local_languages": ["Rajasthani", "Hindi", "English"],
-    "nearestRailwayStation": {
-      "name": "Jaisalmer",
-      "distanceFromPlace": "5 km"
-    },
-    "nearestAirport": {
-      "name": "Jaisalmer Airport",
-      "distanceFromPlace": "10 km"
-    },
-    "nearestHotel": {
-      "name": "Suryagarh",
-      "distanceFromPlace": "8 km",
-      "hotelRating": 4.8
-    }
-  },
-  {
-    "id": 18,
-    "name": "Rajasthan",
-    "type": "city",
-    "city": "Jaipur",
-    "rating": 4.8,
-    "local_languages": ["Rajasthani", "Hindi", "English"],
-    "nearestRailwayStation": {
-      "name": "Jaipur Junction",
-      "distanceFromPlace": "4 km"
-    },
-    "nearestAirport": {
-      "name": "Jaipur International Airport",
-      "distanceFromPlace": "12 km"
-    },
-    "nearestHotel": {
-      "name": "The Oberoi Rajvilas",
-      "distanceFromPlace": "5 km",
-      "hotelRating": 4.7
-    }
-  },
-  {
-    "id": 19,
-    "name": "Coorg",
-    "type": "city",
-    "city": "Coorg",
-    "rating": 4.7,
-    "local_languages": ["Kodava", "Kannada", "English"],
-    "nearestRailwayStation": {
-      "name": "Mangalore Junction",
-      "distanceFromPlace": "100 km"
-    },
-    "nearestAirport": {
-      "name": "Mangalore International Airport",
-      "distanceFromPlace": "120 km"
-    },
-    "nearestHotel": {
-      "name": "The Tamara Coorg",
-      "distanceFromPlace": "25 km",
-      "hotelRating": 4.6
-    }
-  },
-  {
-    "id": 20,
     "name": "Shimla",
     "type": "city",
     "city": "Shimla",
     "rating": 4.5,
-    "local_languages": ["Hindi", "English", "Pahari"],
-    "nearestRailwayStation": {
-      "name": "Shimla",
-      "distanceFromPlace": "1 km"
+    "local_languages": ["Hindi", "Punjabi"],
+    "famousVisitingPlace": {
+      "name": "Jakhoo Temple",
+      "description": "A temple dedicated to Hanuman, located on Jakhoo Hill.",
+      "nearestRailwayStation": {
+        "name": "Shimla Railway Station",
+        "distanceFromPlace": "3 km"
+      },
+      "nearestAirport": {
+        "name": "Shimla Airport",
+        "distanceFromPlace": "23 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "The Oberoi Cecil",
+          "description": "Luxury heritage hotel with scenic views.",
+          "distanceFromPlace": "2 km"
+        },
+        {
+          "name": "Hotel Willow Banks",
+          "description": "Comfortable hotel with modern amenities.",
+          "distanceFromPlace": "3 km"
+        }
+      ]
     },
-    "nearestAirport": {
-      "name": "Shimla Airport",
-      "distanceFromPlace": "20 km"
+    "souvenirs": [
+      {
+        "name": "Shimla Woollens",
+        "description": "Warm woolen garments from Shimla.",
+        "price": "$40"
+      },
+      {
+        "name": "Handmade Shawls",
+        "description": "Beautiful handmade shawls.",
+        "price": "$60"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Manali",
+    "type": "city",
+    "city": "Manali",
+    "rating": 4.8,
+    "local_languages": ["Hindi", "Punjabi"],
+    "famousVisitingPlace": {
+      "name": "Solang Valley",
+      "description": "A picturesque valley known for adventure sports.",
+      "nearestRailwayStation": {
+        "name": "Joginder Nagar Railway Station",
+        "distanceFromPlace": "100 km"
+      },
+      "nearestAirport": {
+        "name": "Kullu-Manali Airport",
+        "distanceFromPlace": "50 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "Manu Allaya Resort",
+          "description": "Luxury resort with beautiful views of the valley.",
+          "distanceFromPlace": "10 km"
+        },
+        {
+          "name": "Hotel Apple Country",
+          "description": "Comfortable hotel with good amenities.",
+          "distanceFromPlace": "12 km"
+        }
+      ]
     },
-    "nearestHotel": {
-      "name": "The Oberoi Cecil",
-      "distanceFromPlace": "2 km",
-      "hotelRating": 4.8
-    }
+    "souvenirs": [
+      {
+        "name": "Himachali Handicrafts",
+        "description": "Traditional handicrafts from Himachal Pradesh.",
+        "price": "$30"
+      },
+      {
+        "name": "Woolen Clothes",
+        "description": "Warm woolen clothes from Manali.",
+        "price": "$50"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Pune",
+    "type": "city",
+    "city": "Pune",
+    "rating": 4.4,
+    "local_languages": ["Marathi", "Hindi", "English"],
+    "famousVisitingPlace": {
+      "name": "Shaniwarwada",
+      "description": "A historical fortification and palace.",
+      "nearestRailwayStation": {
+        "name": "Pune Railway Station",
+        "distanceFromPlace": "2 km"
+      },
+      "nearestAirport": {
+        "name": "Pune Airport",
+        "distanceFromPlace": "10 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "The Westin Pune",
+          "description": "Luxury hotel with excellent facilities.",
+          "distanceFromPlace": "4 km"
+        },
+        {
+          "name": "Hotel Aurora Towers",
+          "description": "Comfortable hotel with good amenities.",
+          "distanceFromPlace": "3 km"
+        }
+      ]
+    },
+    "souvenirs": [
+      {
+        "name": "Pune Handicrafts",
+        "description": "Traditional handcrafted items from Pune.",
+        "price": "$30"
+      },
+      {
+        "name": "Pune Chivda",
+        "description": "Spicy snack mix from Pune.",
+        "price": "$15"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Surat",
+    "type": "city",
+    "city": "Surat",
+    "rating": 4.3,
+    "local_languages": ["Gujarati", "Hindi", "English"],
+    "famousVisitingPlace": {
+      "name": "Surat Castle",
+      "description": "A historic fort built in the 1500s.",
+      "nearestRailwayStation": {
+        "name": "Surat Railway Station",
+        "distanceFromPlace": "5 km"
+      },
+      "nearestAirport": {
+        "name": "Surat Airport",
+        "distanceFromPlace": "15 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "The Grand Bhagwati",
+          "description": "Luxury hotel with top-notch services.",
+          "distanceFromPlace": "4 km"
+        },
+        {
+          "name": "Hotel Sifat",
+          "description": "Comfortable hotel with good facilities.",
+          "distanceFromPlace": "6 km"
+        }
+      ]
+    },
+    "souvenirs": [
+      {
+        "name": "Surat Textiles",
+        "description": "High-quality textiles and fabrics from Surat.",
+        "price": "$40"
+      },
+      {
+        "name": "Surat Jewelry",
+        "description": "Beautiful jewelry pieces from Surat.",
+        "price": "$50"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Nagpur",
+    "type": "city",
+    "city": "Nagpur",
+    "rating": 4.2,
+    "local_languages": ["Marathi", "Hindi", "English"],
+    "famousVisitingPlace": {
+      "name": "Deekshabhoomi",
+      "description": "A significant Buddhist monument and pilgrimage site.",
+      "nearestRailwayStation": {
+        "name": "Nagpur Railway Station",
+        "distanceFromPlace": "5 km"
+      },
+      "nearestAirport": {
+        "name": "Nagpur Airport",
+        "distanceFromPlace": "10 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "Radisson Blu Hotel",
+          "description": "Luxury hotel with modern amenities.",
+          "distanceFromPlace": "6 km"
+        },
+        {
+          "name": "Hotel Centre Point",
+          "description": "Comfortable hotel with good services.",
+          "distanceFromPlace": "5 km"
+        }
+      ]
+    },
+    "souvenirs": [
+      {
+        "name": "Nagpur Oranges",
+        "description": "Famous oranges from Nagpur.",
+        "price": "$20"
+      },
+      {
+        "name": "Marathi Handicrafts",
+        "description": "Traditional Marathi handicrafts.",
+        "price": "$25"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Indore",
+    "type": "city",
+    "city": "Indore",
+    "rating": 4.3,
+    "local_languages": ["Hindi", "Marathi", "English"],
+    "famousVisitingPlace": {
+      "name": "Rajwada",
+      "description": "Historical palace of the Holkar dynasty.",
+      "nearestRailwayStation": {
+        "name": "Indore Railway Station",
+        "distanceFromPlace": "4 km"
+      },
+      "nearestAirport": {
+        "name": "Indore Airport",
+        "distanceFromPlace": "10 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "Radisson Blu Hotel",
+          "description": "Luxury hotel with excellent amenities.",
+          "distanceFromPlace": "5 km"
+        },
+        {
+          "name": "Hotel President",
+          "description": "Comfortable hotel with good services.",
+          "distanceFromPlace": "3 km"
+        }
+      ]
+    },
+    "souvenirs": [
+      {
+        "name": "Indore Namkeen",
+        "description": "Famous savory snacks from Indore.",
+        "price": "$15"
+      },
+      {
+        "name": "Traditional Handicrafts",
+        "description": "Handicrafts and artifacts from Indore.",
+        "price": "$30"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Bhopal",
+    "type": "city",
+    "city": "Bhopal",
+    "rating": 4.4,
+    "local_languages": ["Hindi", "English"],
+    "famousVisitingPlace": {
+      "name": "Bhojtal",
+      "description": "A large artificial lake and popular picnic spot.",
+      "nearestRailwayStation": {
+        "name": "Bhopal Railway Station",
+        "distanceFromPlace": "6 km"
+      },
+      "nearestAirport": {
+        "name": "Raja Bhoj Airport",
+        "distanceFromPlace": "15 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "Jehan Numa Palace Hotel",
+          "description": "Luxury hotel with historical charm.",
+          "distanceFromPlace": "7 km"
+        },
+        {
+          "name": "Hotel Ranjit",
+          "description": "Comfortable hotel with modern amenities.",
+          "distanceFromPlace": "6 km"
+        }
+      ]
+    },
+    "souvenirs": [
+      {
+        "name": "Bhopal Handicrafts",
+        "description": "Traditional handicrafts from Bhopal.",
+        "price": "$30"
+      },
+      {
+        "name": "Bhopal Sweets",
+        "description": "Famous sweets from Bhopal.",
+        "price": "$20"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Kochi",
+    "type": "city",
+    "city": "Kochi",
+    "rating": 4.5,
+    "local_languages": ["Malayalam", "English"],
+    "famousVisitingPlace": {
+      "name": "Fort Kochi",
+      "description": "Historic area with colonial architecture and vibrant culture.",
+      "nearestRailwayStation": {
+        "name": "Ernakulam Junction",
+        "distanceFromPlace": "12 km"
+      },
+      "nearestAirport": {
+        "name": "Cochin International Airport",
+        "distanceFromPlace": "35 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "Brunton Boatyard",
+          "description": "Luxury heritage hotel with views of the backwaters.",
+          "distanceFromPlace": "2 km"
+        },
+        {
+          "name": "Fort House Hotel",
+          "description": "Comfortable hotel with a cozy atmosphere.",
+          "distanceFromPlace": "1 km"
+        }
+      ]
+    },
+    "souvenirs": [
+      {
+        "name": "Kochi Spices",
+        "description": "Authentic spices from Kochi.",
+        "price": "$20"
+      },
+      {
+        "name": "Kerala Handicrafts",
+        "description": "Traditional Kerala handicrafts.",
+        "price": "$25"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Bhubaneswar",
+    "type": "city",
+    "city": "Bhubaneswar",
+    "rating": 4.4,
+    "local_languages": ["Odia", "Hindi", "English"],
+    "famousVisitingPlace": {
+      "name": "Lingaraj Temple",
+      "description": "A major Hindu temple dedicated to Lord Shiva.",
+      "nearestRailwayStation": {
+        "name": "Bhubaneswar Railway Station",
+        "distanceFromPlace": "6 km"
+      },
+      "nearestAirport": {
+        "name": "Bhubaneswar Airport",
+        "distanceFromPlace": "10 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "Hotel Swosti Premium",
+          "description": "Luxury hotel with modern amenities.",
+          "distanceFromPlace": "7 km"
+        },
+        {
+          "name": "The Royale Midtown",
+          "description": "Comfortable hotel with good services.",
+          "distanceFromPlace": "5 km"
+        }
+      ]
+    },
+    "souvenirs": [
+      {
+        "name": "Odia Handicrafts",
+        "description": "Traditional Odia handicrafts.",
+        "price": "$30"
+      },
+      {
+        "name": "Pipli Applique Work",
+        "description": "Bright and colorful applique art from Pipli.",
+        "price": "$25"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Jodhpur",
+    "type": "city",
+    "city": "Jodhpur",
+    "rating": 4.6,
+    "local_languages": ["Hindi", "Marwari", "English"],
+    "famousVisitingPlace": {
+      "name": "Mehrangarh Fort",
+      "description": "A massive fort overlooking the city, with a rich history.",
+      "nearestRailwayStation": {
+        "name": "Jodhpur Railway Station",
+        "distanceFromPlace": "6 km"
+      },
+      "nearestAirport": {
+        "name": "Jodhpur Airport",
+        "distanceFromPlace": "9 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "Umaid Bhawan Palace",
+          "description": "Luxurious palace hotel with historic charm.",
+          "distanceFromPlace": "7 km"
+        },
+        {
+          "name": "RAAS Jodhpur",
+          "description": "Boutique hotel with a contemporary design.",
+          "distanceFromPlace": "3 km"
+        }
+      ]
+    },
+    "souvenirs": [
+      {
+        "name": "Jodhpur Blue Pottery",
+        "description": "Handcrafted blue pottery from Jodhpur.",
+        "price": "$30"
+      },
+      {
+        "name": "Rajasthani Embroidered Fabrics",
+        "description": "Colorful and intricate fabrics from Rajasthan.",
+        "price": "$40"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Thiruvananthapuram",
+    "type": "city",
+    "city": "Thiruvananthapuram",
+    "rating": 4.5,
+    "local_languages": ["Malayalam", "English"],
+    "famousVisitingPlace": {
+      "name": "Padmanabhaswamy Temple",
+      "description": "A famous temple dedicated to Lord Vishnu.",
+      "nearestRailwayStation": {
+        "name": "Thiruvananthapuram Central Railway Station",
+        "distanceFromPlace": "4 km"
+      },
+      "nearestAirport": {
+        "name": "Trivandrum International Airport",
+        "distanceFromPlace": "8 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "Taj Green Cove Resort",
+          "description": "Luxury resort with stunning views.",
+          "distanceFromPlace": "5 km"
+        },
+        {
+          "name": "Hilton Garden Inn",
+          "description": "Comfortable hotel with modern amenities.",
+          "distanceFromPlace": "6 km"
+        }
+      ]
+    },
+    "souvenirs": [
+      {
+        "name": "Kashmiri Carpets",
+        "description": "Handwoven carpets from Kashmir available in Thiruvananthapuram.",
+        "price": "$100"
+      },
+      {
+        "name": "Kerala Tea",
+        "description": "High-quality tea from Kerala.",
+        "price": "$20"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Kanpur",
+    "type": "city",
+    "city": "Kanpur",
+    "rating": 4.2,
+    "local_languages": ["Hindi", "English"],
+    "famousVisitingPlace": {
+      "name": "Kanpur Zoo",
+      "description": "A popular zoo housing a variety of wildlife.",
+      "nearestRailwayStation": {
+        "name": "Kanpur Railway Station",
+        "distanceFromPlace": "5 km"
+      },
+      "nearestAirport": {
+        "name": "Kanpur Airport",
+        "distanceFromPlace": "20 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "Hotel Landmark",
+          "description": "Comfortable hotel with excellent service.",
+          "distanceFromPlace": "4 km"
+        },
+        {
+          "name": "The Krishna Hotel",
+          "description": "Affordable hotel with basic amenities.",
+          "distanceFromPlace": "6 km"
+        }
+      ]
+    },
+    "souvenirs": [
+      {
+        "name": "Kanpur Leather Goods",
+        "description": "High-quality leather products from Kanpur.",
+        "price": "$50"
+      },
+      {
+        "name": "Traditional Kanpuri Bangles",
+        "description": "Beautifully crafted bangles from Kanpur.",
+        "price": "$25"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Agartala",
+    "type": "city",
+    "city": "Agartala",
+    "rating": 4.1,
+    "local_languages": ["Bengali", "Kokborok", "English"],
+    "famousVisitingPlace": {
+      "name": "Ujjayanta Palace",
+      "description": "A historic palace and museum.",
+      "nearestRailwayStation": {
+        "name": "Agartala Railway Station",
+        "distanceFromPlace": "4 km"
+      },
+      "nearestAirport": {
+        "name": "Agartala Airport",
+        "distanceFromPlace": "12 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "Hotel Welcome Palace",
+          "description": "Comfortable hotel with modern amenities.",
+          "distanceFromPlace": "5 km"
+        },
+        {
+          "name": "Hotel Aizawl",
+          "description": "Affordable hotel with good services.",
+          "distanceFromPlace": "6 km"
+        }
+      ]
+    },
+    "souvenirs": [
+      {
+        "name": "Tripura Handicrafts",
+        "description": "Traditional handicrafts from Tripura.",
+        "price": "$30"
+      },
+      {
+        "name": "Bamboo Crafts",
+        "description": "Handcrafted bamboo items from Agartala.",
+        "price": "$20"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Coimbatore",
+    "type": "city",
+    "city": "Coimbatore",
+    "rating": 4.4,
+    "local_languages": ["Tamil", "English"],
+    "famousVisitingPlace": {
+      "name": "Perur Pateeswarar Temple",
+      "description": "A historic Hindu temple with beautiful architecture.",
+      "nearestRailwayStation": {
+        "name": "Coimbatore Junction",
+        "distanceFromPlace": "6 km"
+      },
+      "nearestAirport": {
+        "name": "Coimbatore International Airport",
+        "distanceFromPlace": "12 km"
+      },
+      "nearestHotels": [
+        {
+          "name": "Vivanta Coimbatore",
+          "description": "Luxury hotel with modern amenities.",
+          "distanceFromPlace": "8 km"
+        },
+        {
+          "name": "Hotel CAG Pride",
+          "description": "Comfortable hotel with good facilities.",
+          "distanceFromPlace": "7 km"
+        }
+      ]
+    },
+    "souvenirs": [
+      {
+        "name": "Coimbatore Textile Products",
+        "description": "High-quality textiles from Coimbatore.",
+        "price": "$35"
+      },
+      {
+        "name": "Handmade Jewelry",
+        "description": "Beautiful handmade jewelry from Coimbatore.",
+        "price": "$40"
+      }
+    ]
   }
 ]
+   

@@ -1,0 +1,15 @@
+{
+    "varsion" :2,
+    "builds" :[
+        {
+            "scr" :"backend.js",
+            "use" :"@vercel/node"
+        }
+    ],
+    "routes" :[
+         {
+            "src": "/(.*)",
+            "dest":"backend.js"
+         }
+    ]
+}

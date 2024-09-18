@@ -2,8 +2,6 @@ function searchPlace() {
     const placeInput = document.getElementById("place-search").value.trim();
     const resultsSection = document.getElementById("results-section");
     if (!placeInput) return;
-    
-    // Clear previous results
     resultsSection.innerHTML = "";
 
     fetch(`http://localhost:8000/cities/${encodeURIComponent(placeInput)}`)
